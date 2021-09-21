@@ -1,9 +1,8 @@
 {
-	"name": "kdyby/fake-session",
+	"name": "ijvo/kdyby-fake-session",
 	"type": "library",
 	"description": "FakeSession class for Nette Framework",
 	"keywords": ["nette", "kdyby", "session", "http"],
-	"homepage": "http://kdyby.org",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
 		{
@@ -12,20 +11,16 @@
 			"email": "filip@prochazka.su"
 		}
 	],
-	"support": {
-		"email": "filip@prochazka.su",
-		"issues": "https://github.com/Kdyby/FakeSession/issues"
-	},
 	"require": {
-		"php": ">=7.1",
-		"nette/di": "^3.0-RC1@dev",
-		"nette/http": "^3.0@dev"
+		"php": ">=7.3",
+		"nette/di": "^3.0",
+		"nette/http": "^3.0"
 	},
 	"require-dev": {
-		"nette/utils": "^3.0@dev",
-		"nette/bootstrap": "^3.0@dev",
-		"nette/caching": "^3.0@dev",
-		"nette/tester": "^2.3.2"
+		"nette/utils": "^3.0",
+		"nette/bootstrap": "^3.0",
+		"nette/caching": "^3.0",
+		"nette/tester": "^2.3"
 	},
 	"autoload": {
 		"psr-4": {
