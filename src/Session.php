@@ -245,4 +245,12 @@ class Session extends \Nette\Http\Session
 		return $this;
 	}
 
+	/** @internal */
+	public function autoStart(bool $forWrite): void
+	{
+		if (!$this->fakeMode) {
+			$this->originalSession->autoStart($forWrite);
+		}
+	}
+
 }
