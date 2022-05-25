@@ -1,5 +1,5 @@
 {
-	"name": "ijvo/kdyby-fake-session",
+	"name": "antstudiocz/kdyby-fake-session",
 	"type": "library",
 	"description": "FakeSession class for Nette Framework",
 	"keywords": ["nette", "kdyby", "session", "http"],
